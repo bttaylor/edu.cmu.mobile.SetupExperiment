@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Latency Study: Breakout</string>
+    <string name="title_activity_breakout">Latency Study</string>
+    <string name="launch">New Game</string>
+    <string name="cont">Continue Game</string>
+    <string name="sound">Sound</string>
+    <string name="score"></string>
+    <string name="source"><u>View Source On GitHub</u></string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="difficult">Difficult</string>
+    
+    <!--  LogCat application filter -->
+    <string name="TAG">breakout_log</string>
+
+    <!-- Text for dialog defined in SetupExperiment.java  -->
+    <string name="SETUP_EXPERIMENT">Setup Experiment</string>
+    <string name="ENTER_USERNAME">Enter Username</string>
+    <string name="ENTER_LATENCY_MS">Enter Latency (ms)</string>
+    <string name="START_NEW_GAME">Start New Game</string>  
+    
+    <!--  Experiment Settings (for params passed between activities) -->
+    <string name="PREFS">PREFERENCES</string>
+    <string name="USERNAME">USERNAME</string>
+    <string name="LATENCY_IN_MS">"LATENCY_IN_MS"</string>
+    <string name="FILE_NAME">FILE_NAME</string>
+    
+    <!--  External Storage -->
+    <string name="APP_DIR">Latency_Study_Results</string>
+    <string name="NO_EXT_STO_ACCESS">Cannot Access External Storage Directory</string>
+    
+    <!-- Copied over from Splash.java -->  
+    <string name="FILE_PATH">data/data/com.dhbikoff.breakout/data.dat</string>
+    <string name="NEW_GAME">NEW_GAME</string>
+    <string name="SOUND_ON_OFF">SOUND_ON_OFF</string>
+    <string name="GAME_LEVEL">GAME_LEVEL</string>
+    <string name="SOUND_PREFS">SOUND_PREFS</string>
+    <string name="HIGH_SCORE_PREF">HIGH_SCORE_PREF</string>
+    
+    
+    <!-- Motion Sensor -->
+    <string type="integer" name="ACC_FREQUENCY">45</string>
+    
+    
+
+    
+    <!-- Application Messages -->
+    <string name="mode">Experiment Mode</string>
+    <string name="mode1">Free Play Mode</string>
+    <string name="mode2">Vary Speed Mode</string>
+    <string name="mode3">Vary Size Mode</string>
+    <string name="EXPMODE">EXPMODE</string>
+    
+    
+</resources>
